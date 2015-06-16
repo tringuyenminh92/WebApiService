@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebApiService.Models;
 
 namespace WebApiService.Controllers
 {
@@ -34,6 +35,11 @@ namespace WebApiService.Controllers
         // DELETE: api/Quote/5
         public void Delete(int id)
         {
+        }
+
+        public IHttpActionResult PushData(Person person)
+        {
+            return Ok(person);
         }
     }
 }
