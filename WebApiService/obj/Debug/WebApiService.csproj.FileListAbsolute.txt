@@ -61,3 +61,6 @@ c:\users\bega\documents\visual studio 2013\Projects\WebApiService\WebApiService\
 c:\users\bega\documents\visual studio 2013\Projects\WebApiService\WebApiService\obj\Debug\WebApiService.csprojResolveAssemblyReference.cache
 c:\users\bega\documents\visual studio 2013\Projects\WebApiService\WebApiService\obj\Debug\WebApiService.dll
 c:\users\bega\documents\visual studio 2013\Projects\WebApiService\WebApiService\obj\Debug\WebApiService.pdb
+C:\Users\BeGa\Documents\Visual Studio 2013\Projects\WebApiService\WebApiService\bin\System.Web.Cors.dll
+C:\Users\BeGa\Documents\Visual Studio 2013\Projects\WebApiService\WebApiService\bin\System.Web.Http.Cors.dll
+C:\Users\BeGa\Documents\Visual Studio 2013\Projects\WebApiService\WebApiService\bin\System.Web.Http.Cors.xml

@@ -11,33 +11,46 @@ namespace WebApiService.Controllers
     public class QuoteController : ApiController
     {
         // GET: api/Quote
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
 
+        [HttpGet]
         // GET: api/Quote/5
-        public string Get(int id)
+        public string Get()
         {
             return "value";
         }
 
-        // POST: api/Quote
-        public void Post([FromBody]string value)
+        [HttpGet]
+        public string GetB()
         {
+            return "vv";
+        }
+        [HttpPost]
+        public string GetB(Person person)
+        {
+            return "vv";
+        }
+
+
+        // POST: api/Quote
+        public IHttpActionResult PushData(Animal ani)
+        {
+            return Ok(ani);
         }
 
         // PUT: api/Quote/5
         public void Put(int id, [FromBody]string value)
         {
         }
-
         // DELETE: api/Quote/5
         public void Delete(int id)
         {
         }
 
-        public IHttpActionResult PushData(Person person)
+        public IHttpActionResult Push(Person person)
         {
             return Ok(person);
         }
